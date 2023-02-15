@@ -1,0 +1,18 @@
+[project]
+name = "Yasuo"
+version = "0.0.1"
+authors = [
+  { name="Dung BV", email="bvdzung@gmail.com" },
+]
+description = "A Yasuo Python package"
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/puffer-python/yasuo"
+"Bug Tracker" = "https://github.com/puffer-python/yasuo/issues"
