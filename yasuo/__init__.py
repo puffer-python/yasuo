@@ -233,4 +233,20 @@ def convert_to_html_tag(s):
     return s.replace("\n", "<br> ")
 
 
+def fibonacci(n: int) -> int:
+    """
+    Calculate the nth value in the Fibonacci sequence.
+
+    Args:
+        n (int): The position of the desired Fibonacci value (starting from 0).
+
+    Returns:
+        int: The Fibonacci value at position n.
+    """
+    if n <= 1:
+        return n
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)
+
+
 __version__ = 1.0
