@@ -8,7 +8,8 @@ from setuptools import setup
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
-long_description = open(os.path.join(HERE, 'README.md'), 'r', encoding='utf8').read()
+with open(os.path.join(HERE, 'README.md'), 'r', encoding='utf8') as f:
+    long_description = f.read()
 
 setup(
     name='yasuo',
