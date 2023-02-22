@@ -9,6 +9,7 @@ from setuptools import setup
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 long_description = open(os.path.join(HERE, 'README.md'), 'r', encoding='utf8').read()
+
 setup(
     name='yasuo',
     version='1.0.1',
