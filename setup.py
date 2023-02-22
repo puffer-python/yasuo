@@ -1,3 +1,7 @@
+"""
+This file provider the config for PYPI.org
+"""
+
 import os
 
 from setuptools import setup
