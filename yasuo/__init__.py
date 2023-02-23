@@ -5,7 +5,7 @@ This package provides a collection of utility functions that
 can be used to handle text and data in Python.
 
 
-Author: Your Name
+Author: Jung BV
 Date: 2023-02-16
 """
 import json
