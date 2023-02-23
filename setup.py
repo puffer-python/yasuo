@@ -28,7 +28,8 @@ setup(
     keywords='yasuo,python,vietnamese',
     author_email='bvdzung@gmail.com',
     packages=['yasuo'],
-    platforms=['Linux (x86, x86_64, ARMv6, ARMv7, ARMv8)', 'Windows (32-bit, 64-bit)', 'macOS (x86_64)'],
+    platforms=['Linux (x86, x86_64, ARMv6, ARMv7, ARMv8)',
+               'Windows (32-bit, 64-bit)', 'macOS (x86_64)'],
     install_requires=[
         'pytz', 'slugify', 'unidecode'
     ],
