@@ -58,7 +58,7 @@ print(text_without_diacritics)  # Output: "Day la mot vi du ve tieng Viet co dau
 
 ### Normalized
 
-The normalized() function converts a string to lowercase, removes all diacritics (accents) and extra spaces. This
+The `normalized()` function converts a string to lowercase, removes all diacritics (accents) and extra spaces. This
 function can be used to normalize user input or database entries for comparison purposes.
 
 ```python
