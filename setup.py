@@ -13,9 +13,10 @@ with open(os.path.join(HERE, 'README.md'), 'r', encoding='utf8') as f:
 
 setup(
     name='yasuo',
-    version='1.0.1',
+    version='1.0.2',
     description='A Yasuo Python package',
     long_description=long_description,
+    long_description_content_type='text/markdown',
     author='Dung BV',
     author_email='bvdzung@gmail.com',
     packages=['yasuo'],
