@@ -1,5 +1,7 @@
 # Yasuo Package
 
+[![PyPI](https://img.shields.io/pypi/v/yasuo.svg)](https://pypi.org/project/yasuo/)
+
 Yasuo Package is a Python package that provides functionality related to the popular game League of Legends.
 Specifically, it provides tools for analyzing data related to the champion Yasuo.
 
