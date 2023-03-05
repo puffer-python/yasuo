@@ -269,7 +269,7 @@ The function takes one parameter:
 Example
 
 ```python
- generate_url_key('Hello, world!')
+generate_url_key('Hello, world!')
 'hello-world'
 generate_url_key('Python is awesome')
 'python-is-awesome'
