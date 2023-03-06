@@ -10,10 +10,12 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 
 with open(os.path.join(HERE, 'README.md'), 'r', encoding='utf8') as f:
     long_description = f.read()
-
+pypi_version = os.getenv('PYPI_VERSION')
+if not pypi_version:
+    raise RuntimeError("PYPI_VERSION is not installed")
 setup(
     name='yasuo',
-    version='2.0.3',
+    version=os.getenv('PYPI_VERSION'),
     description='A Yasuo Python package',
     long_description=long_description,
     long_description_content_type='text/markdown',
