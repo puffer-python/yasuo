@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Yasuo Python Package
+name: Publish to PYPI
 
 on:
   release:
@@ -17,8 +17,6 @@ permissions:
 
 jobs:
   deploy:
-    env:
-      PYPI_VERSION: $GITHUB_REF_NAME
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -33,6 +31,7 @@ jobs:
           pip install -r requirements.txt
       - name: Build package
         run: |
+          export PYPI_VERSION=$(git describe --tags --abbrev=0)
           echo "Build version:" ${PYPI_VERSION}
           python setup.py sdist bdist_wheel
       - name: Publish package
