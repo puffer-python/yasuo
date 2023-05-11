@@ -19,15 +19,6 @@ import unidecode
 from slugify import slugify
 
 __author__ = 'DungBV'
-__patterns = {
-    '[àáảãạăắằẵặẳâầấậẫẩ]': 'a',
-    '[đ]': 'd',
-    '[èéẻẽẹêềếểễệ]': 'e',
-    '[ìíỉĩị]': 'i',
-    '[òóỏõọôồốổỗộơờớởỡợ]': 'o',
-    '[ùúủũụưừứửữự]': 'u',
-    '[ỳýỷỹỵ]': 'y'
-}
 
 
 def convert(text):
@@ -36,12 +27,8 @@ def convert(text):
     text: input string to be converted
     Return: string converted
     """
-    output = text
-    for regex, replace in __patterns.items():
-        output = re.sub(regex, replace, output)
-        # deal with upper case
-        output = re.sub(regex.upper(), replace.upper(), output)
-    return output
+
+    return unidecode.unidecode(text)
 
 
 def remove_accents(text):
