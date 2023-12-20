@@ -1,5 +1,5 @@
 # Yasuo Package
-
+[![Home](https://img.shields.io/badge/yasuo.wtf-8A2BE2?label=HomePage)](https://yasuo.wtf)
 [![PyPI](https://img.shields.io/pypi/v/yasuo.svg)](https://pypi.org/project/yasuo/)
 [![Build Status](https://img.shields.io/badge/build-passed-brightgreen)](https://github.com/puffer-python/yasuo/actions)
 [![GitHub issues](https://img.shields.io/github/issues/puffer-python/yasuo)](https://github.com/puffer-python/yasuo/issues)
